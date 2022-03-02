@@ -3,8 +3,8 @@ by Nina Thiessen
 
 ## Data
 
-Downloaded from UCI Machine Learning Repository
-  https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation
+Downloaded from UCI Machine Learning Repository  
+https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation
 
 Collected via a survey on Amazon Mechanical Turk
 
@@ -46,5 +46,7 @@ Explore...
 ## Project Timeline
 
 Wed: Data exploration
+
 Thurs - Mon: Modeling & param tuning
+
 Tues - Thurs: Visualize resuslts, clean notebook, prepare presentation
