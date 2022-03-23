@@ -8,7 +8,7 @@ https://archive.ics.uci.edu/ml/datasets/in-vehicle+coupon+recommendation
 
 Collected via a survey on Amazon Mechanical Turk
 
-12,684 records (57% Yes)
+12,684 records
 
 23 features, all categorical, including:
 * driver personal info (age, gender, education, occupation)
@@ -38,15 +38,9 @@ Coupon types:
 ### Analysis Plan
 
 Explore...
-* Options for filling missing values (ordinal features)
-* Classifier models: Decision Trees, KNN, Logistic Regression, LinearSVC
-* DT Ensemble methods: Random Forest, Gradient Boosting
+* Ordinal vs Nominal feature encoding
+* Options for filling missing values in ordinal features
+* Upsampling with SMOTE to handle yes/no imbalance
+* Classifier models: RandomForest (Decision Trees), KNN, Logistic Regression
 * Optimising hyperparameters with grid search cross validation
-
-## Project Timeline
-
-Wed: Data exploration
-
-Thurs - Mon: Modeling & param tuning
-
-Tues - Thurs: Visualize resuslts, clean notebook, prepare presentation
+* Evaluating performance with AUC-ROC (validation and test sets)
